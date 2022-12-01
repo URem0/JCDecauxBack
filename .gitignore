@@ -1,2 +1,3 @@
 *.pyc
 /apiJCD/conf.py
+*.gitignore
