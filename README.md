@@ -14,6 +14,12 @@ export FLASK_APP=apiJCD/api.py
 flask run
 ```
 
+| Endpoint                                                                      | Returns                              |
+| ----------------------------------------------------------------------------- | ------------------------------------ |
+| `/contracts`                                                                   | List of contracts                    |
+| `/stations`                             | List of stations                        |
+| `/contracts/<contract>/stations`                                              | List of stations for given contract |
+| `/contracts/<contract>/stations/<station_number>`                                  | Station detail                     |
 
 
 
